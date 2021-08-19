@@ -1,0 +1,17 @@
+table {
+	border: 10px solid silver;
+}
+td:hover {
+	background-color: purple;
+	color: orange;
+}
+tr, th {
+	background-color: black;
+	color: yellow;
+}
+tr:nth-child(even) {background: darkblue;
+	color: white;
+}
+tr:nth-child(odd) {background-color: darkred;
+	color: black;
+}

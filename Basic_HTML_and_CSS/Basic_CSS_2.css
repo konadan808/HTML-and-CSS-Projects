@@ -1,0 +1,18 @@
+p {
+	color: purple;
+	background: orange;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: double overline;
+	font-size: 50px;
+}
+h3 {
+	background: green;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: double underline;
+	font-size: 30;
+}
+h2 {
+	text-shadow: 7px -5px 2px grey;
+}
