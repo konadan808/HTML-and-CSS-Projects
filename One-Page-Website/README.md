@@ -1,6 +1,6 @@
 # One-Page Website
 Introduction: 
-	Course assignment of building a single page HTML website.  This webage is designed with the objective of introducing a game I personally am quite fond of, Satisfactory.  
+	Course assignment of building a single page HTML website with CSS styling.  This webage is designed with the objective of introducing a game I personally am quite fond of, Satisfactory.  
 Code Highlights:
 	- Division (<div>) element
 	- Styling <style> element
@@ -15,7 +15,7 @@ Code Highlights:
 	
 Tech:
 	- Languages used: HTML5
-	- IDE: Notepad++
+	- IDE: Visual Studio Code
 	- CSS(CSS3)
 	- Chrome Web Browser
 Author:

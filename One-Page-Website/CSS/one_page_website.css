@@ -6,8 +6,6 @@
 	width: 85%;
 	text-align: center;
 	margin: auto;
-	
-	
 }
 
 img {
@@ -18,7 +16,6 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	
 }
 
 #nav{
@@ -30,53 +27,56 @@ img {
 }
 
 #home{
+	padding-top: 300px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-bottom: 10px;
-	padding: 20px;
+	padding-bottom: 100px;
 }
 
 #about{
-	border: 12px solid;
-	border-color: black;
+	border: 12px outset;
+	border-color: silver;
 	background-color: darkgrey;
-	margin: auto;
-	padding: ;
+	margin: 5% auto;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	width: 90%;
 	color: #e8e8e8;
-	font-size: 18px;
-	font-color: 
+	font-size: 30px;
 }
 
 #videos{
-	border: 5px solid;
-	color: grey;
-	background-image: url(./Images/Background/coalpower_bg.jpg);
-	background-size: 90%;
-	margin-left: 20%;
-	margin-bottom: 7%;
-	margin-right: 20%;
-	padding-bottom: 3%;
+	color: white;
+	background-image: url(../Images/Background/coalpower_bg.jpg);
+	background-size: 100%;
+	margin: 10%;
+	margin-bottom: 100px;
+	padding: 3%;
+	background-position: center;
+	}
+
+.vid-box {
+	display: block;
+	margin: 0px;
+	padding: 50px;
+	position: relative;
 	
 }
 
-#vid1 {
-	margin-left: 10px;
-	padding-left: 8%;
-}
-
-#vid2 {
-	margin-left: 10px;
-	padding-left: 8%;
+iframe {
+	display: inline;
+	margin: auto;
+	padding: 50px;
 }
 
 #title_box {
-	
+	align-items: center;
 }
 
 #contact {
-	border: 5px solid;
+	border: 5px inset;
 	margin: auto;
 	border-color: grey;
 	width: 50%;
@@ -84,13 +84,15 @@ img {
 	padding-bottom: 15px;
 	color: #e8e8e8;
 	font-size: 18px;
-	background-image: url(./Images/Thumb/Satisfactory_09.jpg);
+	background-image: url(../Images/Thumb/Satisfactory_09.jpg);
 }
 
 #footer {
-	text-align: center;
-	margin-top: 10px;
-	font-size: 22px;
+	color: white;
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+	font-size: 30px;
 }
 
 #page {
@@ -118,5 +120,64 @@ h3 {
 	font-size: 20px;
 }
 
+.wrap {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
 
-	
+.menu {
+	color: white;
+	font: bold 12px/18px sans-serif;
+	text-align: center;
+	display: inline;
+	margin: 0% auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.menu li {
+	color: #000;
+	background-color: #9D9FA2;
+	display: inline-block;
+	margin: 0% auto;
+	position: relative;
+	padding: 15px 4%;
+	border: 1px solid purple;
+	cursor: pointer;
+}
+
+.menu-container {
+	max-height: 340;
+	margin: 0% auto;
+	content: "";
+	width: 100%;
+	position: fixed;
+	z-index: 100%;
+}
+
+.homehead {
+	background-image: url(../Images/Background/pipe_bg.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	padding-bottom: 50px;
+}
+
+h2 {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	color: rgb(216, 20, 20);
+	font-family: Arial, Helvetica, sans-serif;
+}
+p {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}

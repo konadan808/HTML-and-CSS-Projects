@@ -7,20 +7,22 @@
 	</head>
 	<body id="page">
 	<!--NAV-->
-		<div>
-			<div id="nav">
-				<div>
-					<a href="#home" id="link"><input type="submit" value="HOME"></a>
-					<a href="#about" id="link"><input type="submit" value="ABOUT"></a>
-					<a href="#gallery" id="link"><input type="submit" value="GALLERY"></a>
-					<a href="#videos" id="link"><input type="submit" value="VIDEOS"></a>
-					<a href="#contact" id="link"><input type="submit" value="CONTACT"></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<div id="nav">
+					<ul class="menu"> 
+						<a href="#home"><li>HOME</li></a>
+						<a href="#about"><li>ABOUT</li></a>
+						<a href="#gallery"><li>GALLERY</li></a>
+						<a href="#videos"><li>VIDEOS</li></a>
+						<a href="#contact"><li>CONTACT</li></a>
+					</ul>
 				</div>
 			</div>
 		</div>
 	<!--END NAV-->
 	<!--HEADER-->
-		<div style="background-image: url(./Images/Background/pipe_bg.jpg); margin: center;">
+		<div class="homehead">
 			<div id="home">
 				<header>
 					<div id="title_box">
@@ -38,7 +40,6 @@
 				</div>
 			</div>
 		</div>
-		<a href="#nav" id="link"><input type="submit" value="BACK TO TOP"></a>
 	<!--END ABOUT-->
 	<!--GALLERY-->
 	<section>
@@ -140,7 +141,6 @@
 				</div>
 			</div>
 		</div>
-		<a href="#nav" id="link"><input type="submit" value="BACK TO TOP"></a>
 	</section>
 	<!--END GALLERY-->
 	<!--VIDEOS-->
@@ -148,10 +148,9 @@
 		<div>
 			<div id="videos">
 				<h2>Videos</h2>
-				<div>
-					<iframe id="vid1" width="560" height="315" src="https://www.youtube.com/embed/5vYYhL9Vt8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				
-					<iframe id="vid2" width="560" height="315" src="https://www.youtube.com/embed/t2X3wlvoShg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="vid-box">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/5vYYhL9Vt8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/t2X3wlvoShg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -176,7 +175,6 @@
 		<div id="footer">
 			<a href="https://www.satisfactorygame.com/">https://www.satisfactorygame.com/</a>
 		</div>
-		<a href="#nav" id="link"><input type="submit" value="BACK TO TOP"></a>
 	<!--END FOOTER-LINK-->
 	</body>
 </html>
