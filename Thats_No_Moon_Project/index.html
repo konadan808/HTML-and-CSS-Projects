@@ -4,187 +4,189 @@
 		<title>The Death Star | Enlist</title>
 		<meta charset="utf-8">
 		<link rel="icon" href="./Images/Death_Star.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="./CSS/shared.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/animations.css">
 	</head>
-	<body id="pagebody">
-	<link rel="stylesheet" type="text/css" href="thats_No_Moon.css"> <!--Don't forget to fix the css in the file link-->
+	<body>
+ 
 		<!--NAV-->
-		<div>
-			<div id="nav">
-				<div>
-					<a href="#home" id="link"><input type="submit" value="HOME"></a>
-					<a href="#gallery" id="link"><input type="submit" value="GALLERY"></a>
-					<a href="#enlist" id="link"><input type="submit" value="ENLIST"></a>
-				</div>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#enlist"><li>ENLIST</li></a>
+				</ul>
 			</div>
 		</div>
 		<!--END NAV-->
 		
 		<!--HOME-->
 		<div id="home">
-			<div id="Header">
-				<h1>The Death Star</h1>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Death Star</span>
+				</div>
 			</div>
 		</div>
 		<!--END HOME-->
 		
 		<!--GALLERY-->
-		<section>
-			<div>
-				<h1 id="gallery">Gallery</h1>
-				<div id="gallery_container">
-				<table style="width: 100%;">
-					<tr>
-					<!--PHOTO-CONTAINER 1-->
-					<td><div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_1.jpg" alt="Under Construction">
-							<div>
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="flex-container">
+					
+					<!---PHOTO CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_1.jpg" alt="">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_1.jpg" target="new"><h3>Click to Enlarge</h3></a>
-								<p>Once complete, this space station will be the ultimate power in the universe</p>
+								<p>Once complete, this space station will be the ultimate power in the universe.</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					<!--PHOTO-CONTAINER 2-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_2.jpg" alt="On Approach">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 1-->
+				
+					<!---PHOTO CONTAINER 2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_2.jpg" alt="On Approach">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_2.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>On approach, the Empire ensures that the best and brightest crew this mighty battlestation.</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					</tr>
-					<tr>
-					<!--PHOTO-CONTAINER 3-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_3.jpg" alt="Superlaser Installation">
-							<div>
-								<a href="./Images/Thumb/thumbnail_3.jpg" target="new"><h3>Click to Enlarge</h3></a>
+					</div>
+					<!--END PHOTO CONTAINER 2-->
+
+					<!---PHOTO CONTAINER 3-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_3.jpg" alt="Superlaser Installation">
+							<div class="photo-overlay">
+								<<a href="./Images/Thumb/thumbnail_3.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>Installation of the Death Star's super laser. Rule through might!</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					<!--PHOTO-CONTAINER 4-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_4.jpg" alt="Command Deck Station">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 3-->
+
+					<!---PHOTO CONTAINER 4-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_4.jpg" alt="Command Deck">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_4.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>The command deck of the Death Star.</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					</tr>
-					<tr>
-					<!--PHOTO-CONTAINER 5-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_5.jpg" alt="Grand Moff Tarkin">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 4-->
+
+					<!---PHOTO CONTAINER 5-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_5.jpg" alt="Grand Moff Tarkin">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_5.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>Grand Moff Tarkin stands ready to bring swift justice to the rebellion.</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					<!--PHOTO-CONTAINER 6-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_6.jpg" alt="The Empire's Fineset">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 5-->
+
+					<!---PHOTO CONTAINER 6-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_6.jpg" alt="The Empire's Finest">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_6.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>The Empire's best are ready to bring peace to the galaxy!</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					</tr>
-					<tr>
-					<!--PHOTO-CONTAINER 7-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_7.jpg" alt="Scarif Orbit">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 6-->
+
+					<!---PHOTO CONTAINER 7-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_7.jpg" alt="Scarif Orbit">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_7.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>The Death Star is the center of the Empire's elite forces.</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					<!--PHOTO-CONTAINER 8-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_8.jpg" alt="Ultimate Power in the Universe">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 7-->
+
+					<!---PHOTO CONTAINER 8-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_8.jpg" alt="Ultimate Power in the Universe">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_8.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>Enemies of the Empire will fear the awesome power of the Death Star!</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					</tr>
-					<tr>
-					<!--PHOTO-CONTAINER 9-->
-					<td><div>
-						<div>
-						<img src="./Images/Thumb/thumbnail_9.jpg" alt="Jedha Orbit">
-							<div>
+					</div>
+					<!--END PHOTO CONTAINER 8-->
+
+					<!---PHOTO CONTAINER 9-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_9.jpg" alt="Jedha Orbit">
+							<div class="photo-overlay">
 								<a href="./Images/Thumb/thumbnail_9.jpg" target="new"><h3>Click to Enlarge</h3></a>
 								<p>Join! See the Galaxy! Enlist!</p>
 							</div>
 						</div>
-					</div></td>
-					<!--END PHOTO-CONTAINER-->
-					</tr>
-				</table>
-				
+					</div>
+					<!--END PHOTO CONTAINER 9-->
 				</div>
 			</div>
 		</section>
 		<!--END GALLERY-->
 		
 		<!--ENLIST-->
-		<section id="foot">
-			<div id="enlist">
-				<div>
-					<h1>Enlist!</h1>
-					<div>
+		<section id="enlist">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Enlist!</h1>
+					<div class="enlist">
 						<h2><span>Your galactic adventure is just a signature away!</span>
-							<br />Enlist today!
+							<br>Enlist Today!
 						</h2>
-						<p>
-							Please provide us with your basic contact information.
+						<p class="enlist-text">
+							Please provide us with your basic contact information
 						</p>
-						<div>
-							<form action="" method-"post">
-								<input class="rvsp" type="text" value="First Name">
-								<input class="rvsp" type="text" value="Last Name">
-								<input class="rvsp" type="text" value="Galactic Net ID">
-								<input class="rvsp" type="text" value="Holo Communicator Number">
+						<div class="form-enlist">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Galactic Net ID">
+								<input class="rsvp" type="text" value="" placeholder="Holo Communicator Number">
 								<div class="form-spacer">
-									<label class-"terms">Terms and Conditions.....just kidding, we're the Empire, prey we don't alter the deal any further</label>
+									<label class="terms">Terms and Conditions... just kidding, we're the Empire, pray we don't alter the deal any further</label>
 								</div>
-								<div>
-									<input type="submit" value="Submit">
+								<div class="submit">
+									<input type="sumbit" value="Submit">
 								</div>
 							</form>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</section>
 		<!--END RVSP-->
 		
 		<!--FOOTER-->
-		<div id="address">
-			www.project_stardust.gal/don't_tell_the_rebels/empire &nbsp;|&nbsp; &copy; 2021
+		<div id="footer">
+			www.project_stardust.gal/do_not_tell_the_rebels/empire &nbsp; | &nbsp; &copy; A long time ago in a galaxy far, far away...
 		</div>
 		<!--END FOOTER-->
+
 	</body>
 </html>
