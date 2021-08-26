@@ -51,24 +51,18 @@ img {
 	color: white;
 	background-image: url(../Images/Background/coalpower_bg.jpg);
 	background-size: 100%;
-	margin: 10%;
+	margin: 5%;
 	margin-bottom: 100px;
-	padding: 3%;
+	padding: 10%;
 	background-position: center;
 	}
 
 .vid-box {
-	display: block;
-	margin: 0px;
+	display: float;
+	margin: 20px;
 	padding: 50px;
 	position: relative;
 	
-}
-
-iframe {
-	display: inline;
-	margin: auto;
-	padding: 50px;
 }
 
 #title_box {
@@ -85,6 +79,8 @@ iframe {
 	color: #e8e8e8;
 	font-size: 18px;
 	background-image: url(../Images/Thumb/Satisfactory_09.jpg);
+	background-position: center;
+	background-size: 100%;
 }
 
 #footer {
@@ -181,3 +177,51 @@ p {
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+form{
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: white;
+    padding: 12px 12px;
+    width: 60%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 18px;
+    background: rgba(227, 222, 222, .2);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    font-size: 15px;
+    outline: none;
+    font-weight: 200;
+    color: white;
+    padding: 2% 1% 2% 7%;
+    width: 40%;
+    border: 2px solid #424549;
+    margin: 10px 1em;
+    border-radius: 18px;
+    background: grey;
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,.015);
+    font-family: 'Raleway', sans-serif;
+	text-align: left;
+	cursor: pointer;
+}
+
+.submit input {
+    color: rgb(225,225,225);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 13%;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #8D8E8F;
