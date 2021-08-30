@@ -1,0 +1,221 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    max-width: 25%;
+    filter:sepia();
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+#img2, #img3 {
+    filter: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+#footlink {
+    text-align: center;
+    display: block;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th, tr, td{
+    border: 1px black solid;
+    padding: 10px;
+}
+/*-----This also works to color a specified row red
+tr:nth-of-type(1) th {
+    background-color: red;
+}
+-----*/
+th {
+    background-color: red;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+
+.img3text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; /* This sets the navbar to always be on top*/
+    top: 0; /* Positions the navbar at the top of the page*/
+    width: 100%;
+    display: inline;
+    text-align: center;
+    background-color: orange;
+    
+}
+
+.main {
+    margin-top: 30px; /* This adds a top margin to avoid content overlay */
+    
+}
+
+.navbar a {
+    text-align: center;
+    color: Blue;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline: 20px;
+}
+
+.navbar a:hover {
+    background: blue;
+    color: orange;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: grey;
+    text-align: center;
+    height: 300px;
+}
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+.column p {
+    color: white;
+    font-size: 18px;
+}
+
+.column:nth-child(even) {
+    background-color: lightslategrey;
+}
+
+.hovertext {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.hovertext:hover {
+    background-color: green;
+    color: yellow;
+    text-align: center;
+}
+
+.container8 {
+    position: relative;
+    width:50;
+}
+
+.image8 {
+    filter: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: none;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container8:hover .image8 {
+    opacity: 0.3;
+}
+
+.container8:hover .middle {
+    opacity: 1;
+}
+
+.txt8 {
+    background-color: dimgray;
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.container10 {
+    position: relative;
+    width:50;
+}
+
+.video10 {
+    filter: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: none;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container10:hover .video10 {
+    opacity: 0.3;
+}
+
+.container10:hover .middle {
+    opacity: 1;
+}
+
+.txt10 {
+    background-color: dimgray;
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+}
