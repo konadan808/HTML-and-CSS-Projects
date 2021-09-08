@@ -4,6 +4,7 @@
 		<title>One Page Assignment | Satisfactory</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
 	<body id="page">
 	<!--NAV-->
@@ -50,90 +51,102 @@
 					<table style="width: 100%">
 						<tr>
 							<!--PHOTO 1-->
-								<td><img src="./Images/Thumb/SATISFACTORY_01.jpg" alt="Play with a firend">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_01.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Play with a firend">
+							</div>	
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_01.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Here you can build with a friend!</p>
 									</div></td>
 							<!--END PHOTO 1-->
 							<!--PHOTO 2-->
-								<td><img src="./Images/Thumb/SATISFACTORY_02.jpg" alt="Basic Setup">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_02.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Basic Setup">
+							</div>		
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_02.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>This is just the beginning of your factory building!</p>
 									</div></td>
 							<!--END PHOTO 2-->
 							<!--PHOTO 3-->
-								<td><img src="./Images/Thumb/SATISFACTORY_03.jpg" alt="Use Drones">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_03.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Use Drones">
+							</div>		
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_03.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Use drones to move materials back and forth between your factories.</p>
 									</div></td>
 							<!--END PHOTO 3-->
 							<!--PHOTO 4-->
-								<td><img src="./Images/Thumb/SATISFACTORY_04.jpg" alt="Doggo">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_04.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Doggo">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_04.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Befriend the skittish doggo.</p>
 									</div></td>
 							<!--END PHOTO 4-->
 						</tr>
 						<tr>
 							<!--PHOTO 5-->
-								<td><img src="./Images/Thumb/SATISFACTORY_05.jpg" alt="Coffee">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_05.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Coffee">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_05.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Have some coffee while you admire your creation!</p>
 									</div></td>
 							<!--END PHOTO 5-->
 							<!--PHOTO 6-->
-								<td><img src="./Images/Thumb/SATISFACTORY_06.jpg" alt="Motors">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_06.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Motors">
+							</div>		
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_06.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>As you progress, you are able to make more and more complext items.</p>
 									</div></td>
 							<!--END PHOTO 6-->
 							<!--PHOTO 7-->
-								<td><img src="./Images/Thumb/SATISFACTORY_07.jpg" alt="Train">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_07.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="Train">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_07.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Build tracks and run your train through the map.</p>
 									</div></td>
 							<!--END PHOTO 7-->
 							<!--PHOTO 8-->
-								<td><img src="./Images/Thumb/SATISFACTORY_08.jpg" alt="Tubes">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_08.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="Tubes">
+							</div>		
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_08.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Need to get around but don't want to walk? Use the tubes!</p>
 									</div></td>
 							<!--END PHOTO 8-->
 						</tr>
 						<tr>
 							<!--PHOTO 9-->
-								<td><img src="./Images/Thumb/SATISFACTORY_09.jpg" alt="Explore">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_09.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="Explore">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_09.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Explore the map and discover new biomes, new resources, and even crashed ships.</p>
 									</div></td>
 							<!--END PHOTO 9-->
 							<!--PHOTO 10-->
-								<td><img src="./Images/Thumb/SATISFACTORY_10.jpg" alt="Crazy">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" alt="Crazy">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_10.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Your imagination is truly the only bounds!</p>
 									</div></td>
 							<!--END PHOTO 10-->
 							<!--PHOTO 11-->
-								<td><img src="./Images/Thumb/SATISFACTORY_11.jpg" alt="Biome">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow" alt="Biome">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_11.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Get lost while exploring strange alien biomes.</p>
 									</div></td>
 							<!--END PHOTO 11-->
 							<!--PHOTO 12-->
-								<td><img src="./Images/Thumb/SATISFACTORY_12.jpg" alt="Desert Biome">
+							<div class="column">
+								<td><img src="./Images/Thumb/SATISFACTORY_12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow" alt="Desert Biome">
+							</div>
 									<div>
-									<a href="./Images/Thumb/SATISFACTORY_12.jpg" target="new"><h3>Click to Enlarge</h3></a>
 									<p>Truly there are many sites to see!</p>
 									</div></td>
 							<!--END PHOTO 12-->
@@ -160,6 +173,111 @@
 		</div>
 	</section>
 	<!--END VIDEOS-->
+
+	<!-- Modal/Lightbox -->
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+
+			<div class="mySlides">
+				<div class="numbertext">1/12</div>
+				<img src="Images/Thumb/Satisfactory_01.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">2/12</div>
+				<img src="Images/Thumb/Satisfactory_02.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">3/12</div>
+				<img src="Images/Thumb/Satisfactory_03.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">4/12</div>
+				<img src="Images/Thumb/Satisfactory_04.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">5/12</div>
+				<img src="Images/Thumb/Satisfactory_05.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">6/12</div>
+				<img src="Images/Thumb/Satisfactory_06.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">7/12</div>
+				<img src="Images/Thumb/Satisfactory_07.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">8/12</div>
+				<img src="Images/Thumb/Satisfactory_08.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">9/12</div>
+				<img src="Images/Thumb/Satisfactory_09.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">10/12</div>
+				<img src="Images/Thumb/Satisfactory_10.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">11/12</div>
+				<img src="Images/Thumb/Satisfactory_11.jpg" style="width:100%;">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">12/12</div>
+				<img src="Images/Thumb/Satisfactory_12.jpg" style="width:100%;">
+			</div>
+
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<!-- Caption Text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<!-- Thumbnail image controls -->
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_01.jpg" onclick="currentSlide(1)" alt="Play with a friend">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_02.jpg" onclick="currentSlide(2)" alt="Basic Setup">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_03.jpg" onclick="currentSlide(3)" alt="Use Drones">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_04.jpg" onclick="currentSlide(4)" alt="Doggo">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_05.jpg" onclick="currentSlide(5)" alt="Coffee">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_06.jpg" onclick="currentSlide(6)" alt="Motors">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_07.jpg" onclick="currentSlide(7)" alt="Train">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_08.jpg" onclick="currentSlide(8)" alt="Tubes">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_09.jpg" onclick="currentSlide(9)" alt="Explore">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_10.jpg" onclick="currentSlide(10)" alt="Crazy">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_11.jpg" onclick="currentSlide(11)" alt="Biome">
+			</div>
+			<div class="column">
+				<img class="demo" src="Images/Thumb/Satisfactory_12.jpg" onclick="currentSlide(12)" alt="Desert Biome">
+			</div>
+		</div>
+	</div>
+	<!-- End Modal/Lightbox-->
+
 	<!--CONTACT-->
 	<section>
 		<div id="contact">
@@ -173,15 +291,15 @@
 						</form>
 					</div>
 					<div class="submit">
-						<input type="sumbit" value="Submit">
+						<input type="submit" value="Submit">
 					</div>
 		</div>
 	</section>				
 	<!--END CONTACT-->
 	<!--FOOTER-LINK-->
-		<div id="footer">
+		<footer id="footer">
 			<a href="https://www.satisfactorygame.com/">https://www.satisfactorygame.com/</a>
-		</div>
+		</footer>
 	<!--END FOOTER-LINK-->
 	</body>
 </html>
