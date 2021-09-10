@@ -38,3 +38,9 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML=dots[slideIndex-1].alt;
 }
+// The code below is added per the Fade challenge for the JavaScript course on step 393
+document.body.classList.add("fade-out");
+
+window.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.remove("fade-out");
+});

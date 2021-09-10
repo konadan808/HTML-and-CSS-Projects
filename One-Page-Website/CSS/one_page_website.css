@@ -17,6 +17,16 @@ img {
 	margin-right: auto;
 	width: 90%;
 }
+/* The code below is added per the Fade challenge for the JavaScript course on step 393 */
+body {
+	opacity: 1;
+	transition: 1s opacity;
+}
+
+body.fade-out {
+	opacity: 0;
+	transition: none;
+}
 
 #nav{
 	margin-left: 20%;
@@ -44,7 +54,8 @@ img {
 	text-align: center;
 	width: 90%;
 	color: #e8e8e8;
-	font-size: 30px;
+	font-size: .75vw; /* This was changed from 30px to .75vw for the VW unit challenge
+	in the JavaScript course, step 292.  This allows the text size to adjust to the screen size. */
 }
 
 #videos{
